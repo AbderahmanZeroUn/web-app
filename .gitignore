@@ -20,6 +20,7 @@ __pycache__/
 .env.test
 .env.production
 
+
 # Ignore macOS system files
 .DS_Store
 
