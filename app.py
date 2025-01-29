@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Define a route
 @app.route('/')
 def home():
-    return "Hello from Docker!! This is a simple Flask app."
+return "Hello, World! Updated message from a new branch."
 
 # Run the app
 if __name__ == '__main__':
