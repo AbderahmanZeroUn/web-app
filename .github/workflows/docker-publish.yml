@@ -21,8 +21,10 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t abderahman01/web-app:latest .
+          docker build -t abderahman2000/web-app:latest .
 
       - name: Push Docker image to Docker Hub
         run: |
-          docker push abderahman01/web-app:latest
+          docker push abderahman2000/web-app:latest
+
+# Testing CI/CD
